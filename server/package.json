@@ -7,7 +7,6 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
-    "build:netlify": "./node_modules/.bin/netlify-lambda build src",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
@@ -25,8 +24,6 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.0",
-    "netlify-cli": "^16.9.2",
-    "netlify-lambda": "^2.0.16",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },
